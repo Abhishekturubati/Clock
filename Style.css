@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(77, 76, 76);
+}
+.Clock{
+    width: 500px;
+    height: 500px;
+    border: 10px solid rgb(255, 255, 255);
+    position: relative;
+    border-radius:50%;
+    margin: 0 auto;
+    top: 110px;
+    background-color: rgb(57, 56, 56);
+    box-shadow: -15px 10px  70px 10px rgb(0, 0, 0);
+    font-family: "Salsa", cursive;
+}
+.point{
+    width: 22px;
+    height: 22px;
+    background-color: aliceblue;
+    position: absolute;
+    border-radius:50%;
+    top: 240px;
+    left: 240px;
+}
+.hour{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+}
+.hour1{
+    top: 40px;
+    right: 130px;
+    transform: rotate(35.5deg);
+}
+.hour2{
+    top: 125px;
+    right: 45px;
+    transform: rotate(62.5deg);
+}
+.hour3{
+    top: 235px;
+    right: 10px;
+    transform: rotate(90deg);
+}
+.hour4{
+    top: 345px;
+    right: 45px;
+    transform: rotate(122.5deg);
+}
+.hour5{
+    top: 430px;
+    right: 130px;
+    transform: rotate(145.5deg);
+}
+.hour6{
+   bottom: 10px;
+    left: 240px;
+    transform: rotate(180deg);
+}
+.hour7{
+    top: 430px;
+    left: 130px;
+    transform: rotate(215.5deg);
+}
+.hour8{
+    top: 345px;
+    left: 30px;
+    transform: rotate(240.5deg);
+}
+.hour9{
+    top: 235px;
+    left: 10px;
+    transform: rotate(270deg);
+}
+.hour10{
+    top: 115px;
+    left: 50px;
+    transform: rotate(305.5deg);
+}
+.hour11{
+    top: 40px;
+    left: 130px;
+    transform: rotate(325.5deg);
+}
+.hour12{
+    top: 10px;
+    left: 230px;
+}
+.minute-hand-wrapper{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius:50%;
+    top: 50px;
+    left: 50px;
+}
+.minute-hand{
+    position: relative;
+}
+.minute-hand .hand{
+    width: 6px;
+    height: 180px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 198px;
+    top: 14px;
+    border-radius: 50px;
+}
+.hour-hand-wrapper{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius:50%;
+    /* background-color: red; */
+    top: 50px;
+    left: 50px;
+}
+.hour-hand{
+    position: relative;
+}
+.hour-hand .hand{
+    width: 6px;
+    height: 150px;
+    background-color: rgb(225, 68, 10);
+    position: absolute;
+    left: 198px;
+    top: 40px;
+    border-radius: 50px;
+}
+.second-hand-wrapper{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius:50%;
+    /* background-color: red; */
+    top: 50px;
+    left: 50px;
+}
+.second-hand{
+    position:relative;
+}
+.second-hand .hand{
+    width: 6px;
+    height: 200px;
+    background-color: rgb(14, 138, 183);
+    position: absolute;
+    left: 198px;
+    border-radius: 50px;
+}
